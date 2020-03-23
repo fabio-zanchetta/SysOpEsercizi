@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 
+void bubble_sort(int * array, int array_dimension);
 
 int main(int argc, char * argv[]){
 	int rnd_array_int [] = {
@@ -52,7 +53,7 @@ void bubble_sort(int * array, int array_dimension){
 			}
 		}
 		n = newn;
-	}while(n>=1);
+	}while(n>1);
 }
 
 
